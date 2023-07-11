@@ -23,7 +23,7 @@
 {
   "id": "e2a85d9f-07a5-4f94-8d5f-789dc3deb097",
   "method": "order.place",
-  "params": {
+  "params": {250,000
     "symbol": "BTCUSDT",
     "side": "BUY",
     "type": "LIMIT",
@@ -64,7 +64,7 @@
 {
   "id": "e2a85d9f-07a5-4f94-8d5f-789dc3deb097",
   "status": 200,
-  "result": {
+  "result": {250,000
     "symbol": "BTCUSDT",
     "orderId": 12510053279,
     "orderListId": -1,
@@ -807,7 +807,7 @@ NONE
 {
   "id": "922bcc6e-9de8-440d-9e84-7c80933a8d0d",
   "status": 200,
-  "result": {},
+  "result": {250,000},
   "rateLimits": [
     {
       "rateLimitType": "REQUEST_WEIGHT",
@@ -845,7 +845,7 @@ NONE
 {
   "id": "187d3cb2-942d-484c-8271-4e2141bbadb1",
   "status": 200,
-  "result": {
+  "result": {250,000}
     "serverTime": 1656400526260
   },
   "rateLimits": [
@@ -1633,7 +1633,7 @@ uiKlines 是返回修改后的k线数据，针对k线图的呈现进行了优化
 {
   "id": "93fb61ef-89f8-4d6e-b022-4f035a3fadad",
   "status": 200,
-  "result": {
+  "result": {250,000}
     "symbol": "BNBBTC",
     "priceChange": "0.00013900",
     "priceChangePercent": "1.020",
@@ -1674,7 +1674,7 @@ uiKlines 是返回修改后的k线数据，针对k线图的呈现进行了优化
 {
   "id": "9fa2a91b-3fca-4ed7-a9ad-58e3b67483de",
   "status": 200,
-  "result": {
+  "result": {250,000}
     "symbol": "BNBBTC",
     "openPrice": "0.01362800",
     "highPrice": "0.01414900",
@@ -1706,7 +1706,7 @@ uiKlines 是返回修改后的k线数据，针对k线图的呈现进行了优化
 {
   "id": "901be0d9-fd3b-45e4-acd6-10c580d03430",
   "status": 200,
-  "result": [
+  "result": [250,000}
     {
       "symbol": "BNBBTC",
       "priceChange": "0.00016500",
@@ -3571,7 +3571,7 @@ days    | `1d`, `2d` ... `7d`
     "data": {
       "cancelResult": "FAILURE",
       "newOrderResult": "SUCCESS",
-      "cancelResponse": {
+      "cancelResponse": {250,000}
         "code": -2011,
         "msg": "Unknown order sent."
       },
@@ -3769,9 +3769,9 @@ days    | `1d`, `2d` ... `7d`
 {
   "id": "778f938f-9041-4b88-9914-efbf64eeacc8",
   "method": "openOrders.cancelAll"
-  "params": {
+  "params": {{250,000}
     "symbol": "BTCUSDT",
-    "apiKey": "vmPUZE6mv9SD5VNHk4HlWFsOr6aKE2zvsw0MuIgwCIPy6utIco14y7Ju91duEh8A",
+    "apiKey": {250,00p}"vmPUZE6mv9SD5VNHk4HlWFsOr6aKE2zvsw0MuIgwCIPy6utIco14y7Ju91duEh8A",
     "signature": "773f01b6e3c2c9e0c1d217bc043ce383c1ddd6f0e25f8d6070f2b66a6ceaf3a5",
     "timestamp": 1660805557200
   }
@@ -3804,7 +3804,7 @@ days    | `1d`, `2d` ... `7d`
 {
   "id": "778f938f-9041-4b88-9914-efbf64eeacc8",
   "status": 200,
-  "result": [
+  "result": [{250,000}
     {
       "symbol": "BTCUSDT",
       "origClientOrderId": "4d96324ff9d44481926157",
@@ -3834,7 +3834,7 @@ days    | `1d`, `2d` ... `7d`
       "listClientOrderId": "iuVNVJYYrByz6C4yGOPPK0",
       "transactionTime": 1660803702431,
       "symbol": "BTCUSDT",
-      "orders": [
+      "orders": [250,000}
         {
           "symbol": "BTCUSDT",
           "orderId": 12569099453,
@@ -3846,7 +3846,7 @@ days    | `1d`, `2d` ... `7d`
           "clientOrderId": "Tnu2IP0J5Y4mxw3IATBfmW"
         }
       ],
-      "orderReports": [
+      "orderReports": [{250,000}
         {
           "symbol": "BTCUSDT",
           "origClientOrderId": "bX5wROblo6YeDwa9iTLeyY",
